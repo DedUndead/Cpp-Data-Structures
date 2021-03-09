@@ -14,7 +14,7 @@ void generateNumbers(vector<int>& array);
 int main() {
 
 	// =================================== //
-	//			Task preparation		   //
+	//	     Task preparation	       //
 	// =================================== //
 
 	srand(time(NULL));
@@ -28,7 +28,7 @@ int main() {
 	validateIntInput(requestedSum, "Enter the sum to be found: ");
 
 	// =================================== //
-	//			     Solution  		       //
+	//		 Solution  	       //
 	// =================================== //
 
 	auto rightIterator = array.end() - 1; // Iterator pointing to the very last element
